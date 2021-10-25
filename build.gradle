@@ -2,6 +2,9 @@ plugins {
     id 'java'
 }
 
+apply plugin: 'application'
+apply plugin: 'java'
+
 group 'linojulio.design.patterns.training'
 version '1.0-SNAPSHOT'
 
@@ -17,3 +20,5 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+mainClassName = "linojulio.design.patterns.training.Main"
